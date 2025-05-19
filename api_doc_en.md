@@ -465,7 +465,7 @@ Return value:
 
 |field|	Example|	explain|
 |-----|------|---------|
-|code|	0|	 
+|code|	0|“0” - > Success<br/>“5” - > Order failed<br/>“9” - > Transaction is frozen<br/>“12” - > Unknown currency symbol<br/>“24” - > Please enter the transaction price<br/>“35” - > Prohibit ordering<br/>“10034” - > Insufficient available balance<br/>“10062” - > Price or quantity precision exceeds the maximum limit<br/>“100004” - > The request parameters are invalid<br/>“100005” - > Parameter signature error<br/>“100007” - > Illegal IP<br/>“100008” -> Request time expired<br/>“101117” -> The current currency does not allow market trading<br/>“101115” -> The current transaction volume exceeds the user's daily transaction limit<br/>“101999” -> This currency is not enabled<br/>“210006” -> The user is not in the open-api whitelist<br/>|
 |msg|	"suc"|	code>0fail|
 |data|	{"order_id":34343}|Successful return to the transactionID|
 
